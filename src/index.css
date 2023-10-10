@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.cdnfonts.com/css/snackid');
+@import url('https://fonts.cdnfonts.com/css/hachi-maru-pop');
+body {
+  background-color: #90D7D9;
+}
+
+.snackid {
+  font-family: 'SNACKID', sans-serif;
+}
+
+.hachi  {
+  font-family: 'Hachi Maru Pop', sans-serif;
+}
+
+
+.hero {
+  background-image: url(./assets/bg.png);
+  background-position: top;
+  background-size: contain;
+}

@@ -42,12 +42,12 @@ function About() {
 
       <img src={Buykekgroupmob} alt="" className='w-80 mr-3 lg:hidden' />
       <img src={Check} alt="" className='w-80 mr-3 lg:hidden' />
-      <img src={Buypurple} alt="" className='w-[900px] mr-3 lg:flex hidden' />
+      <img src={Buypurple} alt="" className='wobble-ver-left w-[900px] mr-3 lg:flex hidden' />
       
     </div>
 
     <div className="other hidden lg:flex flex-col justify-center items-center w-1/2 relative">
-    <img src={Trespass} alt="" className='w-96 hidden lg:flex  ' />
+    <img src={Trespass} alt="" className='signnx buyhero w-96 hidden lg:flex  ' />
 <div className="relative flex flex-col justify-center items-center">
 <img src={Containermain} alt="" className='w-[900px] hidden lg:flex absoludte bottom-2 left-2 ' />
 

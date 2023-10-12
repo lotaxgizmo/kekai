@@ -8,6 +8,8 @@ import Gunbig from '../assets/gunbig.png'
 import Bushes from '../assets/bushes.svg'
 import Mainbuykekai from '../assets/mainbuykekai.svg'
 
+
+
 function Home() {
   return (
     <div className='hero flex flex-col justify-center items-center overflow-hidden relative'>
@@ -15,18 +17,17 @@ function Home() {
       <img src={Hero} alt="" className='w-96 ' />
       <p className='snackid text-8xl lg:text-[300px] lg:mt-[-69px]'>KEKAI</p>
       <p className='snackid text-xl'>Never miss a cook again</p>
-
-      <img src={Gunsmall} alt="" className='w-80 lg:hidden' />
-      <img src={Buymob} alt="" className='w-60 lg:hidden' />
+      <img src={Gunsmall} alt="" className='gunbig w-80 lg:hidden' />
+      <img src={Buymob} alt="" className='buyhero w-60 lg:hidden' />
      
-     <div className="gun flex flex-col justify-center items-center relative">
-     <img src={Gunbig} alt="" className='w-[3000px] lg:flex hidden' />
-      <img src={Mainbuykekai} alt="" className='w-[400px] lg:flex hidden absolute' />
+     <div className="  gun flex flex-col justify-center items-center relative">
+     <img src={Gunbig} alt="" className='gunbig w-[3000px] lg:flex hidden' />
+      <img src={Mainbuykekai} alt="" className='buyhero w-[400px] lg:flex hidden absolute' />
      </div>
 
 
 <div className="pack flex flex-col lg:flex-row justify-center items-center mt-20">
-      <img src={Botpack} alt="" className='w-80 lg:w-[700px] ' />
+      <img src={Botpack} alt="" className='botpack w-80 lg:w-[700px] ' />
       <img src={Never} alt="" className='w-80 lg:w-[500px]' />
 
 </div>

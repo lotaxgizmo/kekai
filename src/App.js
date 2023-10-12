@@ -1,4 +1,5 @@
 import './App.css';
+import './trans.css';
 import Home from './pages/Home'
 import About from './pages/About'
 import Checklist from './pages/Checklist'

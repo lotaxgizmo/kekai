@@ -12,8 +12,8 @@ function About() {
     <div className="total flex">
       <div className="about flex flex-col justify-center items-center lg:w-1/2">
       <img src={Trespass} alt="" className='w-80 lg:hidden' />
-      <p className='snackid text-8xl     text-center mb-10  '>ABOUT KEKAI</p>
-      <p className='hachi text-xl text-center lg:text-left lg:ml-5 p-2'>KEK AI is here to make sure you don`t miss any good snipes. You get pinged in time to setup and start winning</p>
+      <p className='snackid text-8xl     text-center mb-10  '>ABOUT KEKAWAP</p>
+      <p className='hachi text-xl text-center lg:text-left lg:ml-5 p-2'>KEKAWAP AI is here to make sure you don`t miss any good snipes. You get pinged in time to setup and start winning</p>
       <img src={Containersmob} alt="" className='w-80  lg:hidden' />
 
 

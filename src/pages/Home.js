@@ -15,7 +15,7 @@ function Home() {
     <div className='hero flex flex-col justify-center items-center overflow-hidden relative'>
       
       <img src={Hero} alt="" className='w-96 mt-20' />
-      <p className='snackid text-7xl lg:text-[300px] lg:mt-[-69px]'>KEKAWAP</p>
+      <p className='snackid text-7xl lg:text-[300px] lg:mt-[-69px]'>KEKAWP</p>
       <p className='snackid text-xl'>Biggest cook you ever touched</p>
       <img src={Gunsmall} alt="" className='gunbig w-80 lg:hidden' />
       <img src={Buymob} alt="" className='buyhero w-60 lg:hidden' />

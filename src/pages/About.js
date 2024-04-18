@@ -4,6 +4,7 @@ import Containersmob from '../assets/containersmob.png'
 import Containermain from '../assets/containermain.png'
 import Buykekgroupmob from '../assets/buykekgroupmob.png'
 import Buypurple from '../assets/buypurple.png'
+import gunleft from '../assets/gunleft.png'
 import Circle from '../assets/circle.svg'
 import Check from '../assets/CHECKLISTTT.png'
 
@@ -11,6 +12,7 @@ function About() {
   return (
     <div className="total flex">
       <div className="about flex flex-col justify-center items-center lg:w-1/2">
+      <img src={gunleft} alt="" className='' />
       <img src={Trespass} alt="" className='w-80 lg:hidden' />
       <p className='snackid text-7xl     text-center mb-10  '>ABOUT KEKAWP</p>
       <p className='hachi text-xl text-center lg:text-left lg:ml-5 p-2'>KEKAWP is here to make sure you don`t miss any good snipes. You get pinged in time to setup and start winning</p>

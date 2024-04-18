@@ -5,12 +5,13 @@ import Twosign from '../assets/twosign.png'
 import Buymob from '../assets/greenbtn.png'
 import Spill from '../assets/spill.png'
 import Bought from '../assets/boughtt.png'
+import gunright from '../assets/gunright.png'
 
 function Kekainomics() {
   return (
     <div className='flex flex-col justify-center items-center'>
-      
-      <p className='snackid text-7xl lg:text-9xl  lg:hidden  text-center'>KEKA
+      <img src={gunright} alt="" />
+      <p className='snackid text-7xl lg:text-9xl  lg:hidden  text-center'>KEKO
       NOMICS </p>
 
       <p className='snackid lg:text-9xl   hidden lg:block text-center'>KEKANOMICS </p>
@@ -21,8 +22,8 @@ function Kekainomics() {
       </div>
       <img src={Twosign} alt="" className='w-[1000px] mt-32 hidden lg:block ' />
 
-
-      <p className='snackid text-xl text-center p-2 lg:px-96 mb-10'>With KEKAWAP you get pinged only for contracts that are worth considering a snipe. <br/> You no longer have to monitor all contracts and figure out if the project is worth a shot.</p>
+{/* 
+      <p className='snackid text-xl text-center p-2 lg:px-96 mb-10'>With KEKAWAP you get pinged only for contracts that are worth considering a snipe. <br/> You no longer have to monitor all contracts and figure out if the project is worth a shot.</p> */}
 
       <img src={Buymob} alt="" className='w-60 lg:w-[500px] ' />
       <img src={Spill} alt="" className='w-96 lg:w-[1500px] ' />

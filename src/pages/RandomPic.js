@@ -1,5 +1,5 @@
 import React from 'react'
-import Rando from '../assets/rando.png'
+import Rando from '../assets/rando1.png'
 import Buykekai from '../assets/buykekai.png'
 
 

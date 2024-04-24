@@ -5,6 +5,8 @@ import Buymob from '../assets/buykekaimob.png'
 import Never from '../assets/never.png'
 import Botpack from '../assets/botpack.png'
 import Gunbig from '../assets/gunbig.png'
+import twittercoin from '../assets/twittercoin.svg'
+import telegramcoin from '../assets/telegramcoin.svg'
 import Bushes from '../assets/bushes.svg'
 import Mainbuykekai from '../assets/mainbuykekai.svg'
 
@@ -24,10 +26,19 @@ function Home() {
      <img src={Gunbig} alt="" className='gunbig w-[3000px] lg:flex hidden' />
       <img src={Mainbuykekai} alt="" className='buyhero w-[400px] lg:flex hidden absolute' />
      </div>
+     
+     <div className="strai flex flex flex-row justify-between w-full items-center">
+     <a href="https://twitter.com/kekawp" target="_blank" rel="noopener noreferrer">
+     <img src={twittercoin} alt="" className='buyhero w-52 lg:w-[400px] ' />
+     </a>
+     <a href="https://t.me/kekawpsol" target="_blank" rel="noopener noreferrer">
+      <img src={telegramcoin} alt="" className='buyhero w-52  lg:w-[400px] ' />
+      </a>
+     </div>
 
 
 <div className="pack flex flex-col lg:flex-row justify-center items-center mt-20">
-      <img src={Botpack} alt="" className='botpack w-80 lg:w-[700px] ' />
+      <img src={Botpack} alt="" className='botpack w-80 lg:w-[700px] lg:mb-40' />
       <img src={Never} alt="" className='w-80 lg:w-[500px]' />
 
 </div>
